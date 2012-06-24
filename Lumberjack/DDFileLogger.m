@@ -223,7 +223,8 @@
 	
 	BOOL hasProperPrefix = [fileName hasPrefix:@"log-"];
 	
-	BOOL hasProperLength = [fileName length] >= 10;
+	// mod by fly2never, change 10 -> 14
+	BOOL hasProperLength = [fileName length] >= 14;
 	
 	
 	if (hasProperPrefix && hasProperLength)
